@@ -2,7 +2,7 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 
 class MedianOfTwoSortedArraysTest {
-    private val solution = Solution()
+    private val solution = MedianOfTwoSortedArraysSolution()
 
     @Test
     fun example1() {

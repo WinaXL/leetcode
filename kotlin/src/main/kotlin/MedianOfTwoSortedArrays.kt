@@ -1,4 +1,4 @@
-class Solution {
+class MedianOfTwoSortedArraysSolution {
     fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
         if (nums1.size > nums2.size) {
             return findMedianSortedArrays(nums2, nums1)

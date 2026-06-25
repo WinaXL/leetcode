@@ -1,8 +1,8 @@
-class RegularExpressionMatchingSolution {
+class Solution {
     fun isMatch(s: String, p: String): Boolean {
         val m = s.length
         val n = p.length
-        val dp = Array(m + 1) { BooleanArray(n + 1) }
+        val dp = Array(m + 1) { _ -> BooleanArray(n + 1) }
         dp[0][0] = true
 
         for (j in 2..n) {

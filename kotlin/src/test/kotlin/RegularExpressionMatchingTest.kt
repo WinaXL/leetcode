@@ -2,7 +2,7 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 
 class RegularExpressionMatchingTest {
-    private val solution = RegularExpressionMatchingSolution()
+    private val solution = Solution()
 
     @Test
     fun example1() {
